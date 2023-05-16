@@ -1,0 +1,104 @@
+.form-container{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box{
+    height: 500px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 25px;
+    background-color:#161616;
+}
+
+.form-box h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family:'Montserrat', sans-serif;
+}
+
+.form-box .box-username{
+    margin-top: 20px;
+}
+
+.form-box .box-username input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-box .box-correo{
+    margin-top: 20px;
+}
+
+.form-box .box-correo input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-box .box-contraseña{
+    margin-top: 20px;
+}
+
+.form-box .box-contraseña input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-box .box-comcontraseña{
+    margin-top: 20px;
+}
+
+.form-box .box-comcontraseña input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.form-box .box-registrar{
+    margin-top: 28px;
+}
+
+.form-box .box-registrar button{
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(12,6,44,1) 24%, rgba(237,9,9,1) 99%, rgba(255,0,0,1) 100%);
+    position: absolute;
+    top: 0;  left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}

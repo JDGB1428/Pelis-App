@@ -1,0 +1,87 @@
+.form-login{
+    height: 380px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10%;
+    padding: 25px;
+    background-color:#161616;
+}
+
+.form-login h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family:'Montserrat', sans-serif;
+}
+
+.form-login .box-correo{
+    margin-top: 20px;
+}
+
+.form-login .box-correo input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-login .box-contraseña{
+    margin-top: 20px;
+}
+
+.form-login .box-contraseña input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-login .box-login{
+    margin-top: 28px;
+}
+
+.form-login .box-login button{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+}
+
+.form-login .account{
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 233px;
+}
+
+.form-login .account a{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(12,6,44,1) 24%, rgba(237,9,9,1) 99%, rgba(255,0,0,1) 100%);
+    position: absolute;
+    top: 0;  left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
