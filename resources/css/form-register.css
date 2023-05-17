@@ -1,5 +1,5 @@
 .form-container{
-    max-height: 100vh;
+    max-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,13 +7,14 @@
 }
 
 .form-box{
-    height: 500px;
+    min-height:400px;
     width: 40%;
     border: 1px solid black;
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 25px;
     background-color:#161616;
+    overflow: hidden;
 }
 
 .form-box h1{
@@ -28,12 +29,27 @@
 }
 
 .form-box .box-username input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
     padding: 10px;
     border: 1px solid #ccc;
     display: block;
     width: 100%;
     font-size: 18px;
     margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-box .box-username .error{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #ff2121;
+    border: 1px solid #ff2121;
     border-radius: 5px;
 }
 
@@ -42,12 +58,27 @@
 }
 
 .form-box .box-correo input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
     padding: 10px;
     border: 1px solid #ccc;
     display: block;
     width: 100%;
     font-size: 18px;
     margin-top: 5px;
+    border-radius: 5px;
+}
+
+.form-box .box-correo .error{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #ff2121;
+    border: 1px solid #ff2121;
     border-radius: 5px;
 }
 
@@ -56,6 +87,8 @@
 }
 
 .form-box .box-contraseña input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
     padding: 10px;
     border: 1px solid #ccc;
     display: block;
@@ -65,17 +98,45 @@
     border-radius: 5px;
 }
 
+.form-box .box-contraseña .error{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #ff2121;
+    border: 1px solid #ff2121;
+    border-radius: 5px;
+}
+
 .form-box .box-comcontraseña{
     margin-top: 20px;
 }
 
 .form-box .box-comcontraseña input{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
     padding: 10px;
     border: 1px solid #ccc;
     display: block;
     width: 100%;
     margin-top: 5px;
     font-size: 18px;
+    border-radius: 5px;
+}
+
+.form-box .box-comcontraseña .error{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #ff2121;
+    border: 1px solid #ff2121;
     border-radius: 5px;
 }
 
@@ -87,6 +148,7 @@
     font-family:'Open Sans', sans-serif;
     font-size: 25px;
     color: white;
+    cursor: pointer;
     width: 100%;
     padding: 10px;
     border: 1px solid rgb(229, 9, 20);
@@ -99,6 +161,6 @@
     position: absolute;
     top: 0;  left: 0;
     z-index: -1;
-    height: 100%;
+    min-height: 110vh;
     width: 100%;
 }
