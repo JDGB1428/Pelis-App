@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,4 @@ Route::view('/', 'pages.welcome');
 Route::get('/registrar', [RegisterController::class, 'index']) ->name('registrar');
 Route::get('/iniciar-sesion',[LoginController::class, 'index'])->name('iniciar-sesion');
 Route::post('/registrar', [RegisterController::class, 'store']);
+Route::get('/browser', [PostController::class, 'index'])->name('post.index');
