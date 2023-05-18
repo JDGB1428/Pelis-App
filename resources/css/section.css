@@ -4,7 +4,7 @@ section{
 }
 
 .home{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -74,7 +74,7 @@ section{
 }
 
 .promo{
-    height: 200vh;
+    min-height: 200vh;
     overflow-y: hidden;
     background-color: #10011a;
 }
@@ -120,7 +120,7 @@ section{
 }
 
 .question{
-    height: 80vh;
+    min-height: 80vh;
     background-color: #10011a;
 
 }
